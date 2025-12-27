@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Chesry Van den Abeele">
     <title>Buzbee | Home</title>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/d7a8c22788.js" crossorigin="anonymous" defer></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <!-- Styling -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <nav class="secondary-navigation" aria-label="Secondary navigation">
+        <div class="secondary-navigation-content container">
+            <ul class="secondary-navigation-list">
+                <li>
+                    <a href="#">
+                        Inloggen
+                    </a>
+                    <i class="fa-solid fa-user"></i>
+                </li>
+                <li>
+                    <button>
+                        NL
+                    </button>
+                    <i class="fa-solid fa-earth-europe"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+    <header class="header">
+        <nav class="primary-navigation" aria-label="Primary navigation">
+            <div class="primary-navigation-content container">
+                <!-- Hamburger -->
+                <input 
+                    type="checkbox"
+                    class="primary-navigation-hamburger-checkbox"
+                    id="hamburger-menu"
+                >
+                <label for="hamburger-menu" class="primary-navigation-hamburger-label">
+                    <span class="primary-navigation-hamburger-bar primary-navigation-hamburger-bar-top"></span>
+                    <span class="primary-navigation-hamburger-bar primary-navigation-hamburger-bar-mid"></span>
+                    <span class="primary-navigation-hamburger-bar primary-navigation-hamburger-bar-bottom"></span>
+                </label>
+
+                <!-- Visible -->
+                <a href="index.html" class="primary-navigation-logo-link">
+                    <img src="assets/logo/buzbee-logo.svg" alt="Buzbee logo" class="primary-navigation-logo">
+                </a>
+                <ul class="primary-navigation-list">
+                    <li><a href="#">Over Buzbee</a></li>
+                    <li><a href="#">Abonnementen</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="#" class="button">
+                            Download de app
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="button">
+                    Download de app
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
