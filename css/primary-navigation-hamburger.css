@@ -65,6 +65,13 @@
     }
 }
 
+@media (max-width: 476px) {
+    .primary-navigation-hamburger-label {
+        right: 8px;
+    }
+}
+
+
 
 
 

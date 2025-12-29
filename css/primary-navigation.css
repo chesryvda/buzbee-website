@@ -83,4 +83,11 @@
     }
 }
 
+@media (max-width: 476px) {
+    .primary-navigation-logo-link {
+        padding: 32px 8px;
+    }
+}
+
+
 
