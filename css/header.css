@@ -44,7 +44,6 @@
 .header-stats {
     display: flex;
     gap: 32px;
-    margin-top: 32px;
 }
 
 .header-stats div {
@@ -62,11 +61,11 @@
 
 @media (max-width: 992px) {
     .header-text {
-        width: 100%;
+        width: 600px;
     }
 
     .header-content {
-        gap: 48px;
+        gap: 32px;
         flex-direction: column;
         align-items: center;
     }
@@ -75,27 +74,22 @@
         align-items: center;
         text-align: center;
     }
-
-    .header-stats {
-        margin-top: 0;
-    }
 }
 
 @media (max-width: 768px) {
-    .header-content {
-        gap: 32px;
+    .header-text {
+        width: 100%;
+    }
+
+    .header-content, .header-text, .header-stats {
+        gap: 24px;
     }
 }
 
 @media (max-width: 576px) {
-    .header-content, .header-text {
-        gap: 24px;
-    }
-
     .header-stats {
         flex-direction: column;
         align-items: center;
-        gap: 24px;
     }
 
     .header-stats div {

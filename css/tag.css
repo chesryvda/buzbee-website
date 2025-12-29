@@ -1,0 +1,18 @@
+.tag {
+    font-weight: var(--fw-semibold);
+    padding: 8px 16px;
+    border-radius: 24px;
+    width: fit-content;
+}
+
+.tag-white {
+    border: 2px solid var(--color-yellow);
+    color: var(--color-yellow);
+    background-color: transparent;
+}
+
+.tag-brown {
+    border: 2px solid var(--color-off-white);
+    color: var(--color-off-white);
+    background-color: rgba(94, 48, 32, 0.2);
+}

@@ -19,11 +19,13 @@
 /* # COMPONENTS (UI)                     */
 /*---------------------------------------*/
 @import url("button.css");
+@import url("tag.css");
 @import url("secondary-navigation.css");
 @import url("primary-navigation.css");
 @import url("primary-navigation-hamburger.css");
 @import url("header.css");
 @import url("feature.css");
+@import url("service.css");
 /*---------------------------------------*/
 /* # OBJECTS (layout structures)         */
 /*---------------------------------------*/

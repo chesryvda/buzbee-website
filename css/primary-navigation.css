@@ -36,8 +36,6 @@
 
     .primary-navigation-list li:last-child a {
         display: inline-block;
-        color: var(--color-yellow);
-        background-color: var(--color-off-white);
     }
 
     .primary-navigation-list li:last-child a:hover {
@@ -73,19 +71,13 @@
 
 @media (max-width: 768px) {
     .primary-navigation-logo-link {
-        padding: 32px;
-    }
-}
-
-@media (max-width: 576px) {
-    .primary-navigation-logo-link {
-        padding: 32px 24px;
+        padding: 24px 32px;
     }
 }
 
 @media (max-width: 476px) {
     .primary-navigation-logo-link {
-        padding: 32px 8px;
+        padding: 24px 8px;
     }
 }
 

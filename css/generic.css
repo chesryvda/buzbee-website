@@ -13,6 +13,7 @@ html {
     background-color: var(--color-off-white);
     font-family: var(--general-sans), "Helvetica Neue", Arial, sans-serif;
     font-weight: var(--fw-medium);
+    font-size: var(--fs-regular);
     overflow-x: hidden;
 }
 
