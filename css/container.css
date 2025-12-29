@@ -12,19 +12,19 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 32px;
+        padding: 48px 32px;
     }
 }
 
 @media (max-width: 576px) {
     .container {
-        padding: 24px;
+        padding: 32px 24px;
     }
 }
 
 @media (max-width: 476px) {
     .container {
-        padding: 8px;
+        padding: 24px 8px;
     }
 }
 

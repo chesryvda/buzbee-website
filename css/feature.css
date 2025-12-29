@@ -1,0 +1,111 @@
+.feature {
+    background-color: var(--color-yellow);
+    color: var(--color-off-white);
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.feature-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 600px;
+}
+
+.feature-items {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.feature-item {
+    padding: 32px;
+    border: 2px solid var(--color-off-white);
+    border-radius: 32px;
+    background-color: rgba(94, 48, 32, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.feature-item:nth-child(3) {
+    background-color: var(--color-off-white);
+    color: var(--color-off-black);
+}
+
+.feature-item-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.feature-item-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-off-white);
+    color: var(--color-yellow);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.feature-item-icon-wrapper i {
+    font-size: 16px; 
+    color: var(--color-yellow);
+}
+
+.feature-item:nth-child(3) .feature-item-top .feature-item-icon-wrapper {
+    background-color: var(--color-yellow);
+} 
+
+.feature-item:nth-child(3) .feature-item-top .feature-item-icon-wrapper i {
+    color: var(--color-off-white);
+} 
+
+@media (max-width: 992px) {
+    .feature-items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .feature-item:nth-child(3) {
+        grid-column: 1 / -1;
+    }
+
+    .feature-content {
+        gap: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-text {
+        width: 100%;
+    }
+
+    .feature-items {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .feature-content {
+        gap: 32px;
+    }
+}
+
+@media (max-width: 576px) {
+    .feature-content, .feature-items {
+        gap: 24px;
+    }
+}
+
+
