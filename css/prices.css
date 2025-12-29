@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 64px;
+    gap: 56px;
 }
 
 .prices-text {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 600px;
+    max-width: 600px;
     text-align: center;
 }
 
@@ -29,8 +29,9 @@
     border: 2px solid var(--color-yellow);
     border-radius: 32px;
     transition: all .2s ease-in;
-    width: 464px;
     height: 100%;
+    width: 100%;
+    max-width: 464px;
 }
 
 .prices-item:hover {
@@ -95,13 +96,6 @@ article:nth-child(2) .prices-item .prices-item-bottom li::marker {
     color: var(--color-off-white); 
 }
 
-@media (max-width: 1200px) {
-    .prices-item {
-        width: 100%;
-    }
-}
-
-
 @media (max-width: 992px) {
     .prices-content {
         gap: 32px;
@@ -119,7 +113,8 @@ article:nth-child(2) .prices-item .prices-item-bottom li::marker {
 
     .prices-items {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 24px;
     }
 
     .prices-item {

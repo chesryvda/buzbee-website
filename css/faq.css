@@ -1,0 +1,40 @@
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    padding-top: 0 !important;
+}
+
+.faq-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.faq-accordion {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (max-width: 992px) {
+    .faq-content {
+        gap: 32px;
+    }
+
+    .faq-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-content, .faq-accordion {
+        gap: 24px;
+    }
+}
+

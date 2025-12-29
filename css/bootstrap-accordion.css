@@ -1,0 +1,74 @@
+input,
+textarea,
+select {
+    border-radius: 0;
+    background-color: transparent;
+    color: var(--color-off-black);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: transparent;
+    border-color: var(--color-off-black);
+    box-shadow: none;
+    outline: none;
+}
+
+label {
+    color: var(--color-off-black);
+}
+
+/* Styling "Vraag" */
+.accordion-button {
+    padding: 0 !important;
+    padding-bottom: 5px !important;
+    border-radius: 0 !important;
+    color: var(--color-off-black) !important;
+    border-bottom: 2px solid var(--color-yellow) !important;
+    background-color: var(--color-off-white) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-off-white) !important;
+    color: var(--color-off-black) !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid var(--color-yellow) !important;
+    font-weight: var(--fw-semi-bold) !important;
+}
+
+/* Styling "Antwoord" */
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-body {
+    padding: 0 !important;
+    padding-top: 5px !important;
+    color: var(--color-off-black) !important;
+    background-color: var(--color-off-white) !important;
+}
+
+
+.accordion-text {
+    color: var(--color-off-black);
+}
+
+/* Animatie */
+.accordion-button::after {
+    content: "+" !important;
+    background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+    color: var(--color-yellow);
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "-" !important;
+    background-image: none !important;
+    color: var(--color-yellow);
+}
