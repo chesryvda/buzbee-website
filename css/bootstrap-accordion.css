@@ -35,10 +35,10 @@ label {
 
 .accordion-button:not(.collapsed) {
     background-color: var(--color-off-white) !important;
-    color: var(--color-off-black) !important;
+    color: var(--color-yellow) !important;
     box-shadow: none !important;
     border-bottom: 2px solid var(--color-yellow) !important;
-    font-weight: var(--fw-semi-bold) !important;
+    font-weight: var(--fw-semibold) !important;
 }
 
 /* Styling "Antwoord" */

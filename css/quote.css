@@ -1,0 +1,45 @@
+.quote {
+    background-color: var(--color-yellow);
+    color: var(--color-off-white);
+}
+
+.quote-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 56px;
+}
+
+.quote-content h2 {
+    max-width: 760px;
+}
+
+@media (max-width: 1200px) {
+    .quote-content h2 {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .quote-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .quote-content h2 {
+        width: 100%;
+    }
+
+    .quote-content a {
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 768px) {
+    .quote-content {
+        gap: 24px;
+    }
+}
+
