@@ -30,10 +30,15 @@ ul {
     padding: 0;
 }
 
+p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
 
-p {
-    margin: 0;
+button {
+    border: none;
+    line-height: inherit;
 }

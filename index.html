@@ -16,7 +16,7 @@
 </head>
 <body>
     <nav class="secondary-navigation" aria-label="Secondary navigation">
-        <div class="secondary-navigation-content container">
+        <div class="secondary-navigation-content wrapper">
             <ul class="secondary-navigation-list">
                 <li>
                     <a href="#">
@@ -35,7 +35,7 @@
     </nav>  
     <header class="header">
         <nav class="primary-navigation" aria-label="Primary navigation">
-            <div class="primary-navigation-content container">
+            <div class="primary-navigation-content wrapper">
                 <!-- Hamburger -->
                 <input 
                     type="checkbox"
@@ -69,15 +69,15 @@
                 </a>
             </div>
         </nav>
-        <div class="header-content container">
+        <div class="header-content wrapper">
             <div class="header-text">
                 <div class="header-title">
                     <h1>Slimmer imkeren begint hier</h1>
                     <p>Buzbee is de app voor imkers die meer willen doen met hun bijenkennis. Ontdek slimme tools en groei mee met de community.</p>
                 </div>
                 <div class="header-download">
-                    <img src="assets/logo/app-store-logo.svg" alt="App store logo">
-                    <img src="assets/logo/google-play-logo.svg" alt="Google play logo">
+                    <a href="#"><img src="assets/logo/app-store-logo.svg" alt="App store logo"></a>
+                    <a href="#"><img src="assets/logo/google-play-logo.svg" alt="Google play logo"></a>
                 </div>
                 <div class="header-stats">
                     <div>
@@ -101,7 +101,7 @@
     </header>
     <main>
         <section class="feature">
-            <div class="feature-content container">
+            <div class="feature-content wrapper">
                 <div class="feature-text">
                     <h2>Alles wat een imker nodig heeft, in &eacute;&eacute;n app</h2>
                     <p>Met handige tools helpt de app je om je kolonies beter te begrijpen, sneller te reageren en verbonden te blijven met andere imkers.</p>
@@ -138,7 +138,7 @@
             </div>
         </section>
         <section class="service">
-            <div class="service-content service-content-reverse container">
+            <div class="service-content service-content-reverse wrapper">
                 <div class="service-text">
                     <span class="tag tag-white">Altijd advies</span>
                     <div>
@@ -156,7 +156,7 @@
             </div>
         </section>
         <section class="service service-yellow">
-            <div class="service-content container">
+            <div class="service-content wrapper">
                 <div class="service-visual">
                     <img src="assets/images/imker-2.webp" alt="Imker aan het werk rond zijn bijenkast">
                 </div>
@@ -174,7 +174,7 @@
             </div>
         </section>
         <section class="prices">
-            <div class="prices-content container">
+            <div class="prices-content wrapper">
                 <div class="prices-text">
                     <h2>Ontdek de versie die bij jou past</h2>
                     <p>Start gratis of ontdek alle extra mogelijkheden met premium. Zo krijg je precies de tools die je nodig hebt om je bijenkolonies gezond en actief te houden.</p>
@@ -226,7 +226,7 @@
             </div>
         </section>
         <section class="faq">
-            <div class="faq-content container">
+            <div class="faq-content wrapper">
                 <div class="faq-text">
                     <h2>Veelgestelde vragen</h2>
                     <p>Hier vind je antwoorden op de meest voorkomende vragen over Buzbee. Zo weet je snel wat de app doet en hoe je er het beste gebruik van kunt maken.</p>
@@ -307,7 +307,7 @@
                             >
                                 <div class="accordion-body">
                                     <p class="accordion-text">
-                                        Ja. Buzbee is geschikt voor zowel beginners als ervaren imkers en biedt duidelijke uitleg en eenvoudige feedback.
+                                        Ja, Buzbee is geschikt voor zowel beginners als ervaren imkers en biedt duidelijke uitleg en eenvoudige feedback.
                                     </p>
                                 </div>
                             </div>
@@ -371,12 +371,57 @@
             </div>
         </section>
         <section class="quote">
-            <div class="quote-content container">
+            <div class="quote-content wrapper">
                 <h2>&ldquo;Buzbee heeft mij geholpen om mijn kolonies veel beter op te volgen.&rdquo;</h2>
                 <a href="#" class="button button-white">
                     Download the app
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="newsletter-content wrapper">
+                <div class="newsletter-text">
+                    <span class="tag tag-white">Altijd op de hoogte</span>
+                    <div>
+                        <h2>Nieuws en updates rechtstreeks in je inbox</h2>
+                        <p>Meld je aan voor onze nieuwsbrief en krijg tips, waarschuwingen en app-updates direct in je inbox.</p>
+                    </div>
+                    <form action="#">
+                        <div class="newsletter-form-top">
+                            <div class="form-typing-input-wrapper">
+                                <label for="e-mailadres">Jouw e-mailadres</label>
+                                <input 
+                                    type="email" 
+                                    id="e-mailadres" 
+                                    autocomplete="email" 
+                                    required
+                                    aria-labelledby="e-mailadres"
+                                    class="form-typing-input"
+                                >
+                            </div>
+                            <button type="submit" class="button button-yellow">
+                                Schrijf me in
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="form-checkbox-wrapper">
+                            <label for="privacy">
+                                <input 
+                                    type="checkbox" 
+                                    id="privacy"
+                                    class="form-checkbox-input"
+                                    value="true"
+                                >
+                                <span class="form-checkbox-input-custom"></span>
+                            </label>
+                            <p class="form-checkbox-text">Door me in te schrijven ga ik akkoord met het verwerken van mijn persoonsgegevens, die beschreven staan in de privacy dislaimer</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="newsletter-visual">
+                    <img src="assets/images/imker-1.webp" alt="Imker aan het werk rond zijn bijenkast">
+                </div>
             </div>
         </section>
     </main>

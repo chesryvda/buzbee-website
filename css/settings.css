@@ -11,12 +11,12 @@
     --general-sans: "General Sans";
 
     /* Font sizes */
-    --fs-h1: 3.8125em;    /* 61px */
-    --fs-h2: 3.0625em;    /* 49px */
-    --fs-h3: 2.4375em;    /* 39px */
-    --fs-h4: 1.9375em;    /* 31px */
+    --fs-h1: 3.8125em;     /* 61px */
+    --fs-h2: 3.0625em;     /* 49px */
+    --fs-h3: 2.4375em;     /* 39px */
+    --fs-h4: 1.9375em;     /* 31px */
     --fs-regular: 1em;     /* 16px */
-    --fs-caption: 0.75em; /* 12px */
+    --fs-caption: 0.875em; /* 14px */
 
     /* Font weights */
     --fw-extrabold: 800;

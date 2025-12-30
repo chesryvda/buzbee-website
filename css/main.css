@@ -18,8 +18,6 @@
 /*---------------------------------------*/
 /* # COMPONENTS (UI)                     */
 /*---------------------------------------*/
-@import url("button.css");
-@import url("tag.css");
 @import url("secondary-navigation.css");
 @import url("primary-navigation.css");
 @import url("primary-navigation-hamburger.css");
@@ -29,14 +27,17 @@
 @import url("prices.css");
 @import url("faq.css");
 @import url("quote.css");
+@import url("newsletter.css");
 /*---------------------------------------*/
 /* # OBJECTS (layout structures)         */
 /*---------------------------------------*/
-@import url("container.css");
+@import url("wrapper.css");
 /*---------------------------------------*/
 /* # UTILITIES (reusable)                */
 /*---------------------------------------*/
-
+@import url("button.css");
+@import url("tag.css");
+@import url("form.css");
 /*---------------------------------------*/
 /* # TOOLS (mixins)                      */
 /*---------------------------------------*/
