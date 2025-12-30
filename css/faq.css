@@ -19,7 +19,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
 }
 
 @media (max-width: 992px) {
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 768px) {
-    .faq-content, .faq-accordion {
+    .faq-content {
         gap: 24px;
     }
 }

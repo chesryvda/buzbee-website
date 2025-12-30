@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 32px !important;
-    padding-bottom: 32px !important;
+    padding-bottom: 0px !important;
 }
 
 .primary-navigation-logo {
