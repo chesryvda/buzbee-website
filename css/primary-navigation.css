@@ -1,3 +1,8 @@
+.primary-navigation {
+    /* Hoogte secondary navigation */
+    margin-top: 64px;
+}
+
 .primary-navigation-content {
     display: flex;
     align-items: center;
@@ -15,6 +20,10 @@
     display: flex;
     align-items: center;
     gap: 32px;
+}
+
+.primary-navigation-list-active {
+    color: var(--color-yellow) !important;
 }
 
 .primary-navigation-list li a {

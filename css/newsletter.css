@@ -16,7 +16,7 @@
     padding-bottom: 8px;
 }
 
-.newsletter-form-top {
+.newsletter-typing-input-wrapper {
     display: flex;
     align-items: flex-end;
     gap: 16px;
@@ -68,17 +68,14 @@
 }
 
 @media (max-width: 576px) {
-    .newsletter-form-top {
+    .newsletter-typing-input-wrapper {
         flex-direction: column;
         width: 100%;
     }
 
-    .newsletter-form-top div, .newsletter-form-top div:first-of-type input, .newsletter-form-top button {
-        width: 100%;
-    }
-
-    .newsletter-form-top button {
+    .newsletter-typing-input-wrapper button {
         justify-content: center;
+        width: 100%;
     }
 }
 

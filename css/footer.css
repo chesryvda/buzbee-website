@@ -49,6 +49,10 @@
     color: var(--color-off-black);
 }
 
+.footer-list-column-item-active {
+    color: var(--color-yellow) !important;
+}
+
 .footer-list-flex {
     display: flex;
     align-items: center;
@@ -59,7 +63,7 @@
     color: var(--color-grey);
 }
 
-.footer-list-column li a:hover, .footer-list-flex li a:hover {
+.footer-list-column li a:hover, .footer-list-flex:first-of-type li a:hover {
     text-decoration: underline;
 }
 
