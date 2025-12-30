@@ -46,38 +46,23 @@
         color: var(--color-off-white);
     }
 
+    .primary-navigation-list li:last-child a {
+        color: var(--color-yellow);
+    }
+
     .primary-navigation-list {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: absolute;
+        position: fixed;
         top: 0;
         background-color: var(--color-yellow);
         height: 100vh;
         width: 100vw;
         right: -100vw;
+        z-index: 99;
         transition: all .3s ease-in;
-    }
-
-    .primary-navigation-content {
-        padding: 0 !important;
-    }
-
-    .primary-navigation-logo-link {
-        padding: 32px 48px;
-    }
-}
-
-@media (max-width: 768px) {
-    .primary-navigation-logo-link {
-        padding: 24px 32px;
-    }
-}
-
-@media (max-width: 476px) {
-    .primary-navigation-logo-link {
-        padding: 24px 8px;
     }
 }
 
