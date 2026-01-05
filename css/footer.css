@@ -68,6 +68,11 @@
     text-decoration: underline;
 }
 
+.footer-list-flex:first-of-type li:first-of-type a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
 .footer-icon-wrapper {
     display: flex;
     justify-content: center;

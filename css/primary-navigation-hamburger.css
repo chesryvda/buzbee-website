@@ -37,6 +37,13 @@
     opacity: 0;
 }
 
+/* Actieve state krijgt gele kleur, bij een geopend hamburger menu is het dan niet meer zichtbaar */
+.primary-navigation-hamburger-checkbox:checked 
+~ .primary-navigation-list li .primary-navigation-list-active {
+    text-decoration: underline;
+    color: var(--color-off-white) !important;
+}
+
 @media (max-width: 992px) {
     .primary-navigation-hamburger-label {
         display: flex;
