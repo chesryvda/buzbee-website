@@ -12,8 +12,9 @@
 }
 
 .primary-navigation-logo {
-    width: 200px;
-    height: 40px;
+    /* Artboard op illustrator; evengroot als typo en daarvan de grootte gekopieerd in code */
+    width: 192.1763px;
+    height: 36.2085px; 
 }
 
 .primary-navigation-list {

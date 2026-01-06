@@ -15,5 +15,7 @@ html {
     font-weight: var(--fw-medium);
     font-size: var(--fs-regular);
     overflow-x: hidden;
+    color: var(--color-off-black);
+    line-height: 1.4;
 }
 
