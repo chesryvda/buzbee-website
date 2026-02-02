@@ -45,5 +45,9 @@
     .faq-content {
         gap: 24px;
     }
+
+    .faq-accordion-item {
+        gap: 16px;
+    }
 }
 
