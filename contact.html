@@ -10,8 +10,6 @@
     <script src="https://kit.fontawesome.com/d7a8c22788.js" crossorigin="anonymous" defer></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Styling -->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -159,143 +157,13 @@
                     <h2>Veelgestelde vragen</h2>
                     <p>Hier vind je antwoorden op de meest voorkomende vragen over Buzbee. Zo weet je snel wat de app doet en hoe je er het beste gebruik van kunt maken.</p>
                 </div>
-                <div class="faq-accordion" id="accordion-parent">
-                    <div class="accordion">
-                        <div class="accordion-item">
-                            <p class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#accordion-collapse-1"
-                                    aria-expanded="false"
-                                    aria-controls="accordion-collapse-1"
-                                >
-                                    Hoe werkt de luisterfunctie en wat voor informatie krijg ik?
-                                </button>
-                            </p>
-                            <div
-                                id="accordion-collapse-1"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordion-parent"
-                            >
-                                <div class="accordion-body">
-                                    <p class="accordion-text">
-                                        Je luistert naar het gezoem van je kolonie, de app analyseert dit geluid en geeft basisstatistieken en eenvoudige feedback over de toestand van je bijen.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <div class="accordion-item">
-                            <p class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#accordion-collapse-2"
-                                    aria-expanded="false"
-                                    aria-controls="accordion-collapse-2"
-                                >
-                                    Welke tips ontvang ik en hoe worden ze aangepast aan mijn ervaring?
-                                </button>
-                            </p>
-                            <div
-                                id="accordion-collapse-2"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordion-parent"
-                            >
-                                <div class="accordion-body">
-                                    <p class="accordion-text">
-                                        Je krijgt praktische imkertips (zoals onderhoud, bijensteken, materialen), aangevuld met extra tips die zijn afgestemd op jouw ervaringsniveau.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <div class="accordion-item">
-                            <p class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#accordion-collapse-3"
-                                    aria-expanded="false"
-                                    aria-controls="accordion-collapse-3"
-                                >
-                                    Kan ik Buzbee gebruiken als beginner?
-                                </button>
-                            </p>
-                            <div
-                                id="accordion-collapse-3"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordion-parent"
-                            >
-                                <div class="accordion-body">
-                                    <p class="accordion-text">
-                                        Ja, Buzbee is geschikt voor zowel beginners als ervaren imkers en biedt duidelijke uitleg en eenvoudige feedback.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <div class="accordion-item">
-                            <p class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#accordion-collapse-4"
-                                    aria-expanded="false"
-                                    aria-controls="accordion-collapse-4"
-                                >
-                                    Op welke manier kan ik contact maken met andere imkers via de app?
-                                </button>
-                            </p>
-                            <div
-                                id="accordion-collapse-4"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordion-parent"
-                            >
-                                <div class="accordion-body">
-                                    <p class="accordion-text">
-                                        Via de community kun je luisteranalyses van andere imkers bekijken en liken.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <div class="accordion-item">
-                            <p class="accordion-header">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#accordion-collapse-5"
-                                    aria-expanded="false"
-                                    aria-controls="accordion-collapse-5"
-                                >
-                                    Kan ik de locatie van mijn kolonie delen met de community?
-                                </button>
-                            </p>
-                            <div
-                                id="accordion-collapse-5"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordion-parent"
-                            >
-                                <div class="accordion-body">
-                                    <p class="accordion-text">
-                                        Nee, alleen premium-imkers kunnen via een kaartfunctie andere imkers ontdekken.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <ul class="faq-accordion">
+                    <li class="faq-accordion-item"><p>Hoe werkt de luisterfunctie en wat voor informatie krijg ik?</p><i class="fa-solid fa-plus"></i></li>
+                    <li class="faq-accordion-item"><p>Welke tips ontvang ik en hoe worden ze aangepast aan mijn ervaring?</p><i class="fa-solid fa-plus"></i></li>
+                    <li class="faq-accordion-item"><p>Kan ik Buzbee gebruiken als beginner?</p><i class="fa-solid fa-plus"></i></li>
+                    <li class="faq-accordion-item"><p>Op welke manier kan ik contact maken met andere imkers via de app?</p><i class="fa-solid fa-plus"></i></li>
+                    <li class="faq-accordion-item"><p>Kan ik de locatie van mijn kolonie delen met de community?</p><i class="fa-solid fa-plus"></i></li>
+                </ul>
             </div>
         </section>
         <section class="quote">
@@ -416,8 +284,5 @@
             </div>
         </div>
     </footer>
-    
-    <!-- Boostrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
